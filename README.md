@@ -32,7 +32,7 @@ Más información y el manual también en [masoft.es](https://masoft.es/descarga
 |---|---|
 | Sistema | Windows 10 o Windows 11 de 64 bits |
 | Permisos | Administrador local, para actuar sobre procesos de otros usuarios o del sistema |
-| Instalación | No hace falta: un solo .exe que se copia y se abre. Python va dentro |
+| Instalación | Instalador (pide permisos de administrador) o ejecutable único que se copia y se abre; Python va dentro. |
 | Espacio | 36 MB el programa; la base de datos y el registro se crean junto a él |
 | Internet | No hace falta; solo para los avisos NTFY, si se activan |
 
@@ -40,13 +40,14 @@ Al abrirlo propone reiniciarse como administrador. El primer arranque tarda unos
 
 ## Descarga y comprobación
 
-En [Releases](https://github.com/MaSoft/MAProcess/releases/latest) están el programa (`MAProcess_v1.1.1.exe`), su huella SHA-256 y el manual. Para comprobar que la descarga está completa, en PowerShell:
+En [Releases](https://github.com/MaSoft/MAProcess/releases/latest) están el instalador (`MAProcess_Setup_v1.1.1.exe`), el ejecutable único (`MAProcess_v1.1.1.exe`), sus huellas SHA-256 y el manual. Para comprobar que la descarga está completa, en PowerShell:
 
 ```powershell
+Get-FileHash .\MAProcess_Setup_v1.1.1.exe
 Get-FileHash .\MAProcess_v1.1.1.exe
 ```
 
-Debe coincidir con `9c71467d38b96fcc6669cf0df74960a1b63b4600c3069be9aa390dafd624be2d`.
+Deben coincidir con `90e13e39dbd2024ef7cd15e376f747debcdc7e439443998287d1613b20888aee` (instalador) y `9c71467d38b96fcc6669cf0df74960a1b63b4600c3069be9aa390dafd624be2d` (ejecutable único).
 
 ## Manual
 
