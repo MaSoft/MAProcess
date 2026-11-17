@@ -6,7 +6,7 @@ Gestiona y vigila los procesos de Windows desde una interfaz sencilla: finaliza,
 
 [![Descargar](https://img.shields.io/github/v/release/MaSoft/MAProcess?label=Descargar&style=for-the-badge)](https://github.com/MaSoft/MAProcess/releases/latest)
 
-También puedes descargarlo desde [masoft.es](https://masoft.es/descargas.html).
+Más información y el manual también en [masoft.es](https://masoft.es/descargas.html#maprocess).
 
 ![Procesos](capturas/01-procesos.webp)
 
